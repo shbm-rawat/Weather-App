@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sevillana&display=swap');
+
+*,
+html {
+    font-size: 15px;
+    box-sizing: border-box;
+    --grey: #808080;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    background: linear-gradient(10deg, #ffffff 0%, #b2e3f5 30%, #b5aaf5 66%);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    text-shadow: 5px 0px 5px white;
+}
+
+.searchbox {
+    text-align: center;
+    margin: 10px;
+}
+
+.searchbox input {
+    border: none;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.searchbox input:focus {
+    outline: none;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 400;
+    width: 80px;
+    border: none;
+}
+
+
+
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    height: 100%;
+}
+
+.dateMonth strong {
+    font-size: 50px;
+    padding-left: 20px;
+    color: var(--grey);
+}
+
+.temp {
+    color: #00ffff;
+    margin: 50px;
+}
+
+.tempDeg {
+    font-size: 120px;
+}
+
+.degree {
+    font-size: 80px;
+}
+
+.temp img {
+    width: 150px;
+}
+
+.currplace {
+    font-size: 100px;
+    color: #0cf073;
+}
+
+.status {
+    display: flex;
+    color: var(--grey);
+}
+
+.status ul {
+    margin: 20px;
+}
+
+.status li {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 25px;
+}
